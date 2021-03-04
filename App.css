@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.bottle-move {
+  animation: bottle-move  infinite 5s;
+  height: 50px;
+  position: relative;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes bottle-move {
+  from {top: 0px;}
+  to {top: 200px;}
+}
